@@ -1,0 +1,72 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #5a476d;
+}
+
+/*Sign In Header*/
+.h1 {
+  color: #4c2c69;
+  font-family: Abel, sans-serif;
+  text-align: center;
+}
+/*Sign In box exterior*/
+#wrapper {
+  width: 250px;
+  height: 250px;
+  box-shadow: 15px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  background-color: #c5979d;
+  padding: 2em;
+  border-radius: 10%;
+}
+
+/*Username Text*/
+#uname {
+  margin: 1em;
+  align-items: center;
+  font-family: Abel, sans-serif;
+  color: #32206e;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  background-color: transparent;
+}
+
+/*Password Text*/
+#pword {
+  margin: 1em;
+  align-items: center;
+  font-family: Abel, sans-serif;
+  color: #32206e;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  background-color: transparent;
+}
+
+/*Button*/
+.subBut {
+  align-items: center;
+  background-color: #8d60b9;
+  border-radius: 20px;
+  color: #32206e;
+  margin: 1em;
+  width: 100px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
